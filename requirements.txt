@@ -1,0 +1,12 @@
+colour==0.1.5
+dadata==21.10.1
+fuzzywuzzy==0.18.0
+google_api_python_client==2.133.0
+google_auth_oauthlib==1.2.0
+pandas==1.5.3
+Pillow==10.3.0
+plotly==5.22.0
+PyYAML==6.0
+schedule==1.2.1
+streamlit==1.35.0
+streamlit-aggrid==1.0.5

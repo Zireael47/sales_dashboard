@@ -1,0 +1,24 @@
+
+:root {
+    --background-color: #ffffff;
+}
+div[data-testid="stVerticalBlockBorderWrapper"]:has(div.fixed-container-0):not(:has(div.not-fixed-container)) {
+    position: fixed;
+    width: inherit;
+    background-color: inherit;
+    top: 3.8rem;
+    z-index: 999;
+}
+div[data-testid="stVerticalBlockBorderWrapper"]:has(div.fixed-container-0):not(:has(div.not-fixed-container)) div[data-testid="stVerticalBlock"]:has(div.fixed-container-0):not(:has(div.not-fixed-container))>div[data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: var(--background-color);
+    width: 100%;
+}
+div[data-testid="stVerticalBlockBorderWrapper"]:has(div.fixed-container-0):not(:has(div.not-fixed-container)) div[data-testid="stVerticalBlock"]:has(div.fixed-container-0):not(:has(div.not-fixed-container))>div[data-testid="stVerticalBlockBorderWrapper"]div[data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: var(--background-color);
+}
+div[data-testid="stVerticalBlockBorderWrapper"]:has(div.fixed-container-0):not(:has(div.not-fixed-container)) div[data-testid="stVerticalBlock"]:has(div.fixed-container-0):not(:has(div.not-fixed-container))>div[data-testid="element-container"] {
+    display: none;
+}
+div[data-testid="stVerticalBlockBorderWrapper"]:has(div.not-fixed-container):not(:has(div[class^='fixed-container-'])) {
+    display: none;
+}

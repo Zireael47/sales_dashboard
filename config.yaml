@@ -1,0 +1,7 @@
+"DBPath":            "./data/db.db"
+"UpdaterLogPath":    "updater.log"
+
+"Email":             "example@gmail.com"
+"MailAuthPath":      "./data/mail_auth"
+"DadataToken":       "token"
+"DadataSecret":      "secret"
