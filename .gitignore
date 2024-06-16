@@ -1,3 +1,5 @@
 .*
 data/mail_auth
 *.log
+*.pyc
+gif

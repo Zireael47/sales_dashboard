@@ -1,6 +1,9 @@
 div[data-testid="collapsedControl"] {
     visibility: hidden;
 }
+div[class="stDeployButton"]{
+    visibility: hidden;
+}
 a[data-testid="stPageLink-NavLink"] {
     background-color: rgba(213, 49, 39, 0.15);
 }
